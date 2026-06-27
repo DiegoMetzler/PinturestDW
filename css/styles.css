@@ -13,10 +13,13 @@
 }
 
 .paginaHeader {
-  background-image: url(../img/backHeader.jpg);
+  background-image: url(../../img/backHeader.jpg);
   display: flex;
   flex-direction: column;
   min-height: 70vh;
+}
+.paginaHeader .nav-link:hover {
+  text-decoration: underline;
 }
 
 .paginaHeaderContenedor {
@@ -150,6 +153,60 @@
   color: #aaa;
   font-size: 0.9rem;
   margin-top: 5px;
+}
+
+.productosMain {
+  padding: 60px 30px;
+}
+.productosMain .productoCategoria {
+  margin-bottom: 60px;
+}
+.productosMain .productoCategoria h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+.productosMain .productosCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.productosMain .productoCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #cdcdcd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+}
+.productosMain .productoCard img {
+  width: 100%;
+  height: 200px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+.productosMain .productoCard h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+.productosMain .productoCard p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+.productosMain .productoCard span {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #198754;
+  margin-bottom: 15px;
+}
+.productosMain .productoCard .btn {
+  margin-top: auto;
+  width: 100%;
 }
 
 * {
