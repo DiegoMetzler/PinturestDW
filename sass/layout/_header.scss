@@ -1,7 +1,7 @@
 @use "../utilities/extends";
 
 .paginaHeader {
-    background-image: url(../../img/backHeader.jpg);
+    background-image: url(../img/backHeader.jpg);
     @extend .backgroundHeaders;
     display: flex;
     flex-direction: column;

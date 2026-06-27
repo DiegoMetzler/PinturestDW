@@ -13,7 +13,7 @@
 }
 
 .paginaHeader {
-  background-image: url(../../img/backHeader.jpg);
+  background-image: url(../img/backHeader.jpg);
   display: flex;
   flex-direction: column;
   min-height: 70vh;
