@@ -1,0 +1,44 @@
+.contactoMain {
+    padding: 60px 30px;
+    max-width: 900px;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 1.1rem;
+        color: #555;
+        margin-bottom: 40px;
+    }
+
+    .contactoForm {
+        background-color: #f8f9fa;
+        padding: 40px;
+        border-radius: 10px;
+
+        .form-label {
+            font-weight: 700;
+            font-size: 1rem;
+        }
+
+        .form-control {
+            font-size: 1rem;
+            border-radius: 8px;
+            padding: 10px 15px;
+
+            &:focus {
+                border-color: #212529;
+                box-shadow: none;
+            }
+        }
+
+        .btn {
+            padding: 12px;
+            font-size: 1.1rem;
+            margin-top: 10px;
+        }
+    }
+}

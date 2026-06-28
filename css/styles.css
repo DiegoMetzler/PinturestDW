@@ -99,7 +99,7 @@
 .footer {
   background-color: #2d2f32;
   color: #ffffff;
-  padding: 5px 10px 5px 0px;
+  padding: 15px 10px 5px 0px;
 }
 .footer .footerContenido {
   display: flex;
@@ -256,6 +256,44 @@
   font-size: 1rem;
   color: #555;
   line-height: 1.7;
+}
+
+.contactoMain {
+  padding: 60px 30px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.contactoMain h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+.contactoMain p {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 40px;
+}
+.contactoMain .contactoForm {
+  background-color: #f8f9fa;
+  padding: 40px;
+  border-radius: 10px;
+}
+.contactoMain .contactoForm .form-label {
+  font-weight: 700;
+  font-size: 1rem;
+}
+.contactoMain .contactoForm .form-control {
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 10px 15px;
+}
+.contactoMain .contactoForm .form-control:focus {
+  border-color: #212529;
+  box-shadow: none;
+}
+.contactoMain .contactoForm .btn {
+  padding: 12px;
+  font-size: 1.1rem;
+  margin-top: 10px;
 }
 
 * {
