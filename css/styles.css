@@ -209,6 +209,55 @@
   width: 100%;
 }
 
+.nosotrosMain {
+  padding: 60px 30px;
+}
+.nosotrosMain .nosotrosHistoria {
+  max-width: 800px;
+  margin: 0 auto 60px auto;
+  text-align: center;
+}
+.nosotrosMain .nosotrosHistoria h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.nosotrosMain .nosotrosHistoria p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+.nosotrosMain .nosotrosMisionVision {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.nosotrosMain .nosotrosCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  padding: 40px 30px;
+  width: 350px;
+}
+.nosotrosMain .nosotrosCard i {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: #198754;
+}
+.nosotrosMain .nosotrosCard h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+.nosotrosMain .nosotrosCard p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.7;
+}
+
 * {
   font-family: "Nunito", sans-serif;
 }
